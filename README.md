@@ -6,18 +6,24 @@ To examine these variables, a multivariate regression tests was conducted on sur
 
 # Hypotheses and Empirical Plan
 Through my research, I developed three hypotheses for comparing impression management behaviors against race:
-•	Hypothesis 1: Nonwhite relative to white employees will exhibit greater competency and likeability related impression management behavior
-•	Hypothesis 2: The impression management behavior for likeability and competency will be stronger when the manager is white relative to nonwhite for nonwhite employees
-•	Hypothesis 3: Nonwhite relative to white employees will exhibit greater impression management behaviors around likeability and competency for workgroups with a lower percentage of nonwhites
+
+*•	Hypothesis 1: Nonwhite relative to white employees will exhibit greater competency and likeability related impression management behavior*
+
+*•	Hypothesis 2: The impression management behavior for likeability and competency will be stronger when the manager is white relative to nonwhite for nonwhite employees*
+
+*•	Hypothesis 3: Nonwhite relative to white employees will exhibit greater impression management behaviors around likeability and competency for workgroups with a lower percentage of nonwhites*
 
 To test these hypotheses, I ran a multivariate regression test against csv survey data using R. The survey used a Likert scale from 1 to 7, asking employees to rate, “how frequently do you use each of the following strategies at work?” The below questions were made to address impression management likeability measures:
-•	Compliment your colleagues so they will see you as likeable
-•	Take an interest in your colleagues’ personal lives to show them that you are friendly
-•	Praise your colleagues for their accomplishments so they will consider you a nice person
+
+1. Compliment your colleagues so they will see you as likeable
+2. Take an interest in your colleagues’ personal lives to show them that you are friendly
+3. Praise your colleagues for their accomplishments so they will consider you a nice person
+
 The results of these questions were averaged out to create a variable representing impression management around likeability. Furthermore, the following questions addressed impression management around competency:
-•	Make people aware of your talents or qualifications
-•	Let others know that you are valuable to the organization
-•	Let others know that you have a reputation for being competent in a particular area
+
+1. Make people aware of your talents or qualifications
+2. Let others know that you are valuable to the organization
+3. Let others know that you have a reputation for being competent in a particular area
 Similarly, the results of the competency questions scores were averaged to make up an index to represent impression management competency. 
 
 # Results
